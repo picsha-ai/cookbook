@@ -9,8 +9,8 @@ Picsha AI is the **Agentic Media Server**—we don't just store files; we run in
 We provide interactive Jupyter Notebooks, Node.js scripts, and React components across multiple industries so you can start interacting with the API natively without writing boilerplate code.
 
 ### 📚 API Basics
-* [**`basics/01_api_basics.ipynb`**](./basics/01_api_basics.ipynb) - Learn how to authenticate via your API Key, connect to the cloud infrastructure, and fetch your indexed assets.
-* [**`basics/02_semantic_search.ipynb`**](./basics/02_semantic_search.ipynb) - Discover how to run natural-language hybrid semantic searches across your visual library, and dynamically render intelligent images directly within your notebook environment.
+* [**`basics/01_api_basics.js`**](./basics/01_api_basics.js) *(JavaScript)* - Learn how to authenticate via your API Key, connect to the cloud infrastructure via Node.js, and fetch your indexed assets.
+* [**`basics/02_semantic_search.js`**](./basics/02_semantic_search.js) *(JavaScript)* - Discover how to run natural-language hybrid semantic searches across your visual library, and dynamically retrieve intelligent images.
 
 ### 💼 Industry Use Cases
 * [**`use-cases/01_life_sciences.ipynb`**](./use-cases/01_life_sciences.ipynb) *(Python)* - Upload complex formats (RAW/HEIC), search "dark data", and load arrays directly into PyTorch/Pandas seamlessly.
