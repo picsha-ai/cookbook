@@ -6,29 +6,24 @@ Picsha AI is the **Agentic Media Server**—we don't just store files; we run in
 
 ## What's Inside?
 
-We provide interactive Jupyter Notebooks so you can start interacting with the API natively in Python without writing boilerplate code.
+We provide interactive Jupyter Notebooks, Node.js scripts, and React components across multiple industries so you can start interacting with the API natively without writing boilerplate code.
 
+### 📚 API Basics
 * [**`basics/01_api_basics.ipynb`**](./basics/01_api_basics.ipynb) - Learn how to authenticate via your API Key, connect to the cloud infrastructure, and fetch your indexed assets.
 * [**`basics/02_semantic_search.ipynb`**](./basics/02_semantic_search.ipynb) - Discover how to run natural-language hybrid semantic searches across your visual library, and dynamically render intelligent images directly within your notebook environment.
 
-## Quick Start
+### 💼 Industry Use Cases
+* [**`use-cases/01_life_sciences.ipynb`**](./use-cases/01_life_sciences.ipynb) *(Python)* - Upload complex formats (RAW/HEIC), search "dark data", and load arrays directly into PyTorch/Pandas seamlessly.
+* [**`use-cases/02_ecommerce.tsx`**](./use-cases/02_ecommerce.tsx) *(React SDK)* - Dynamically render catalog sizes on the fly via URL, strip image backgrounds, and integrate generative expand features into storefronts using `<PicshaImage>`.
+* [**`use-cases/03_headless_dam.js`**](./use-cases/03_headless_dam.js) *(Node.js)* - Treat Picsha as a Headless DAM. Trigger Claude PDF summaries, define relational asset hierarchies (`variant_of`), and configure MCP context.
+* [**`use-cases/04_media_entertainment.js`**](./use-cases/04_media_entertainment.js) *(JavaScript)* - Push massive broadcast files via TUS Resumable Uploads, leverage facial recognition via AWS Rekognition, and apply dynamic watermarking.
 
-1. Install Jupyter and Requests if you haven't already:
-```bash
-pip install jupyter requests ipython
-```
-2. Clone this repository to your local machine:
+## Quick Start
+Clone this repository to your local machine:
 ```bash
 git clone https://github.com/picsha-ai/cookbook.git
 cd cookbook
-```
-3. Set your API Key in your environment:
-```bash
 export PICSHA_API_KEY="your_api_key_here"
-```
-4. Start exploring! Just click on any notebook in VSCode or launch Jupyter:
-```bash
-jupyter notebook
 ```
 
 ## Contributing
